@@ -1,0 +1,1 @@
+# azure_iothub_eventhub_capture_bicep
