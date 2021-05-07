@@ -96,6 +96,14 @@ gives us
 chgpiothub/00/2021/05/07/08/12.json
 ```
 
+File contents looking like this... It's not really a JSON file, but a text file which has one JSON object per line, but formally misses a wrapping `[]` and the separating `,` to make it a real array:
+
+```text
+{"EnqueuedTimeUtc":"2021-05-07T08:12:19.6950000Z","Properties":{},"SystemProperties":{"connectionDeviceId":"simulatedDevice","connectionAuthMethod":"{\"scope\":\"hub\",\"type\":\"sas\",\"issuer\":\"iothub\",\"acceptingIpFilterRule\":null}","connectionDeviceGenerationId":"637559719329772931","enqueuedTime":"2021-05-07T08:12:19.6950000Z"},"Body":"UGluZyBmcm9tIEF6IENMSSBJb1QgRXh0ZW5zaW9u"}
+{"EnqueuedTimeUtc":"2021-05-07T08:12:19.8040000Z","Properties":{},"SystemProperties":{"connectionDeviceId":"simulatedDevice","connectionAuthMethod":"{\"scope\":\"hub\",\"type\":\"sas\",\"issuer\":\"iothub\",\"acceptingIpFilterRule\":null}","connectionDeviceGenerationId":"637559719329772931","enqueuedTime":"2021-05-07T08:12:19.8040000Z"},"Body":"UGluZyBmcm9tIEF6IENMSSBJb1QgRXh0ZW5zaW9u"}
+{"EnqueuedTimeUtc":"2021-05-07T08:12:19.8350000Z","Properties":{},"SystemProperties":{"connectionDeviceId":"simulatedDevice","connectionAuthMethod":"{\"scope\":\"hub\",\"type\":\"sas\",\"issuer\":\"iothub\",\"acceptingIpFilterRule\":null}","connectionDeviceGenerationId":"637559719329772931","enqueuedTime":"2021-05-07T08:12:19.8350000Z"},"Body":"UGluZyBmcm9tIEF6IENMSSBJb1QgRXh0ZW5zaW9u"}
+```
+
 
 ### list the Avro contents
 
